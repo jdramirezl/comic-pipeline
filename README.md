@@ -1,6 +1,6 @@
 # Comic Pipeline
 
-Goal: take a curated list of complete comic runs, resolve them to verified source pages, inspect the approved packages, and organize legitimately obtained files for Mihon's local source.
+Goal: take a curated list of complete comic runs, resolve them to verified source pages, inspect the approved packages, resolve candidate host links, and organize obtained files for Mihon's local source.
 
 ## Current status
 
@@ -8,47 +8,42 @@ Goal: take a curated list of complete comic runs, resolve them to verified sourc
 `wanted.json` contains the curated comic targets: title, year, creator, and wanted issue range.
 
 ### Stage 2 — ReadComicOnline discovery retired ⚠️
-The live-search experiment against `readcomiconline.li` failed because the hostname no longer resolves from the test machine. The generated report showed DNS `NameResolutionError` failures before any HTTP request could reach the site.
-
-`search_comics.py` remains in the repo only for reference.
+The live-search experiment against `readcomiconline.li` failed because the hostname no longer resolves from the test machine. `search_comics.py` remains only for reference.
 
 ### Stage 3 — approved GetComics mapping ✅
-`approved_getcomics.json` maps all 52 current wanted entries to the previously reviewed GetComics landing pages, including package notes such as TPB, issue bundle, master-series subset, extras, and known gaps.
+`approved_getcomics.json` maps all 52 current wanted entries to reviewed landing pages, including package notes such as TPB, issue bundle, master-series subset, extras, and known gaps.
 
-Important caveats are recorded directly in the manifest, especially for:
-- Nightwing (2016) Tom Taylor trades;
-- Nightwing (1996) master-series subset;
-- JLA (1997) Morrison subset;
-- Hulk: Future Imperfect reprint packaging;
-- Moon Knight (2021) fan-made omnibus packaging.
+### Stage 4 — landing-page inspection ✅
+The uploaded inspection covered 66 package pages. 57 returned HTTP 200 locally; 9 returned HTTP 429 rate limits rather than missing-page errors. Those 9 landing pages were checked separately. See `PACKAGE_REVIEW.md`.
 
-### Stage 4 — landing-page inspection 🟡
-`inspect_getcomics.py` checks every approved landing page without downloading comic files. It records:
-- HTTP status and final URL;
-- page title/H1;
-- short text snippets useful for verifying collected contents/issue ranges;
-- external host names present on the page (not direct file URLs).
+Important special cases:
+- Nightwing (2016) #78-118: current TPB set is not exact contiguous coverage and remains REVIEW-only.
+- Nightwing (1996) #1-70: master page contains more than the wanted subset.
+- JLA (1997) #1-41: master page contains more than the wanted subset.
 
-Run on Windows:
+### Stage 5 — download-link resolution 🟡
+`resolve_download_links.py` inspects only the already-approved landing pages and extracts candidate host links. It does **not** download comic files and does not fuzzy-search for alternate titles.
+
+Run:
 
 ```powershell
 git pull
 python -m pip install -r requirements.txt
-python .\inspect_getcomics.py
+python .\resolve_download_links.py
 ```
 
-Or double-click `RUN_INSPECT.bat`.
+Or double-click `RUN_RESOLVE.bat`.
 
-Then review/upload:
+Then send/review:
 
-`results\getcomics_inspection.md`
+`results\download_link_candidates.md`
 
-### Next — Mihon organizer
-After the package inspection is reviewed, the next deterministic tool will organize files you have obtained from sources you are authorized to use into:
+### Next — deterministic acquisition + Mihon organizer
+After candidate host links are reviewed, the next tools will use only explicitly approved selections, then organize files into:
 
 `Mihon/local/<Series>/`
 
-It will normalize names, convert/repack supported archives when needed, create `details.json`, and avoid overwriting existing files.
+The organizer will normalize names, repack supported archives when needed, create `details.json`, and avoid overwriting existing files.
 
 ## Windows setup
 
