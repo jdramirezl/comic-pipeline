@@ -1,0 +1,464 @@
+{
+  "version": 1,
+  "purpose": "Curated, contained comic runs to search before downloading",
+  "notes": [
+    "This manifest intentionally favors complete miniseries or contiguous creator runs.",
+    "Search is discovery-only. Nothing in this file authorizes downloading until a candidate is reviewed.",
+    "Years are series/publication start years used to disambiguate similarly named comics."
+  ],
+  "comics": [
+    {
+      "category": "Other / Indie",
+      "title": "Y: The Last Man",
+      "year": 2002,
+      "writers": ["Brian K. Vaughan"],
+      "artists": ["Pia Guerra"],
+      "issues": "1-60"
+    },
+    {
+      "category": "Other / Indie",
+      "title": "East of West",
+      "year": 2013,
+      "writers": ["Jonathan Hickman"],
+      "artists": ["Nick Dragotta"],
+      "issues": "1-45"
+    },
+    {
+      "category": "Other / Indie",
+      "title": "Paper Girls",
+      "year": 2015,
+      "writers": ["Brian K. Vaughan"],
+      "artists": ["Cliff Chiang"],
+      "issues": "1-30"
+    },
+    {
+      "category": "Star Wars",
+      "title": "Kanan",
+      "aliases": ["Kanan - The Last Padawan", "Kanan: The Last Padawan"],
+      "year": 2015,
+      "writers": ["Greg Weisman"],
+      "artists": ["Pepe Larraz", "Jacopo Camagni"],
+      "issues": "1-12"
+    },
+    {
+      "category": "Star Wars",
+      "title": "Lando",
+      "year": 2015,
+      "writers": ["Charles Soule"],
+      "artists": ["Alex Maleev"],
+      "issues": "1-5"
+    },
+    {
+      "category": "Star Wars",
+      "title": "Obi-Wan & Anakin",
+      "aliases": ["Obi-Wan and Anakin"],
+      "year": 2016,
+      "writers": ["Charles Soule"],
+      "artists": ["Marco Checchetto"],
+      "issues": "1-5"
+    },
+    {
+      "category": "Superman",
+      "title": "Superman Smashes the Klan",
+      "year": 2019,
+      "writers": ["Gene Luen Yang"],
+      "artists": ["Gurihiru"],
+      "issues": "1-3"
+    },
+    {
+      "category": "Superman",
+      "title": "Superman: Space Age",
+      "aliases": ["Superman Space Age"],
+      "year": 2022,
+      "writers": ["Mark Russell"],
+      "artists": ["Mike Allred"],
+      "issues": "1-3"
+    },
+    {
+      "category": "Batman",
+      "title": "Batman: Dark Victory",
+      "aliases": ["Batman Dark Victory"],
+      "year": 1999,
+      "writers": ["Jeph Loeb"],
+      "artists": ["Tim Sale"],
+      "issues": "0-13"
+    },
+    {
+      "category": "Batman",
+      "title": "Batman: The Knight",
+      "aliases": ["Batman The Knight"],
+      "year": 2022,
+      "writers": ["Chip Zdarsky"],
+      "artists": ["Carmine Di Giandomenico"],
+      "issues": "1-10"
+    },
+    {
+      "category": "Batman",
+      "title": "Batman: White Knight",
+      "aliases": ["Batman White Knight"],
+      "year": 2017,
+      "writers": ["Sean Murphy"],
+      "artists": ["Sean Murphy"],
+      "issues": "1-8"
+    },
+    {
+      "category": "Nightwing",
+      "title": "Grayson",
+      "year": 2014,
+      "writers": ["Tim Seeley", "Tom King"],
+      "artists": ["Mikel Janin"],
+      "issues": "1-20"
+    },
+    {
+      "category": "Nightwing",
+      "title": "Nightwing",
+      "year": 2016,
+      "writers": ["Tom Taylor"],
+      "artists": ["Bruno Redondo"],
+      "issues": "78-118",
+      "notes": "Tom Taylor run; same ongoing series continues outside this range."
+    },
+    {
+      "category": "Nightwing",
+      "title": "Nightwing",
+      "year": 1996,
+      "writers": ["Chuck Dixon"],
+      "artists": ["Scott McDaniel"],
+      "issues": "1-70",
+      "notes": "Primary Chuck Dixon solo run target."
+    },
+    {
+      "category": "Wonder Woman",
+      "title": "Wonder Woman",
+      "year": 1987,
+      "writers": ["George Perez"],
+      "artists": ["George Perez"],
+      "issues": "1-62",
+      "notes": "George Perez era target."
+    },
+    {
+      "category": "Wonder Woman",
+      "title": "Wonder Woman Historia: The Amazons",
+      "aliases": ["Wonder Woman Historia The Amazons"],
+      "year": 2021,
+      "writers": ["Kelly Sue DeConnick"],
+      "artists": ["Phil Jimenez", "Gene Ha", "Nicola Scott"],
+      "issues": "1-3"
+    },
+    {
+      "category": "Wonder Woman",
+      "title": "Wonder Woman: Dead Earth",
+      "aliases": ["Wonder Woman Dead Earth"],
+      "year": 2019,
+      "writers": ["Daniel Warren Johnson"],
+      "artists": ["Daniel Warren Johnson"],
+      "issues": "1-4"
+    },
+    {
+      "category": "Green Lantern",
+      "title": "Far Sector",
+      "year": 2019,
+      "writers": ["N. K. Jemisin"],
+      "artists": ["Jamal Campbell"],
+      "issues": "1-12"
+    },
+    {
+      "category": "Green Lantern",
+      "title": "Green Lantern: Earth One",
+      "aliases": ["Green Lantern Earth One"],
+      "year": 2018,
+      "writers": ["Corinna Bechko", "Gabriel Hardman"],
+      "artists": ["Gabriel Hardman"],
+      "issues": "graphic novels 1-2",
+      "notes": "Two original graphic novels, not a normal numbered ongoing."
+    },
+    {
+      "category": "Green Lantern",
+      "title": "Green Lantern: War Journal",
+      "aliases": ["Green Lantern War Journal"],
+      "year": 2023,
+      "writers": ["Phillip Kennedy Johnson"],
+      "artists": ["Montos"],
+      "issues": "1-12"
+    },
+    {
+      "category": "Flash",
+      "title": "The Flash",
+      "aliases": ["Flash"],
+      "year": 1987,
+      "writers": ["Mark Waid"],
+      "issues": "62-129",
+      "notes": "First long uninterrupted Waid phase; creator metadata should help confirm the volume."
+    },
+    {
+      "category": "Flash",
+      "title": "The Flash",
+      "aliases": ["Flash"],
+      "year": 1987,
+      "writers": ["Geoff Johns"],
+      "issues": "164-225",
+      "notes": "Johns Wally West run in the same 1987 series."
+    },
+    {
+      "category": "Teen Titans",
+      "title": "World's Finest: Teen Titans",
+      "aliases": ["Worlds Finest Teen Titans"],
+      "year": 2023,
+      "writers": ["Mark Waid"],
+      "artists": ["Emanuela Lupacchino"],
+      "issues": "1-6"
+    },
+    {
+      "category": "Teen Titans",
+      "title": "Teen Titans: Year One",
+      "aliases": ["Teen Titans Year One"],
+      "year": 2008,
+      "writers": ["Amy Wolfram"],
+      "artists": ["Karl Kerschl"],
+      "issues": "1-6"
+    },
+    {
+      "category": "Justice League",
+      "title": "DC: The New Frontier",
+      "aliases": ["DC The New Frontier", "The New Frontier"],
+      "year": 2004,
+      "writers": ["Darwyn Cooke"],
+      "artists": ["Darwyn Cooke"],
+      "issues": "1-6"
+    },
+    {
+      "category": "Justice League",
+      "title": "JLA",
+      "year": 1997,
+      "writers": ["Grant Morrison"],
+      "artists": ["Howard Porter"],
+      "issues": "1-41",
+      "notes": "Morrison-era target; occasional fill-ins are part of the contiguous series experience."
+    },
+    {
+      "category": "DC",
+      "title": "Mister Miracle",
+      "year": 2017,
+      "writers": ["Tom King"],
+      "artists": ["Mitch Gerads"],
+      "issues": "1-12"
+    },
+    {
+      "category": "DC",
+      "title": "The Human Target",
+      "aliases": ["Human Target"],
+      "year": 2021,
+      "writers": ["Tom King"],
+      "artists": ["Greg Smallwood"],
+      "issues": "1-12"
+    },
+    {
+      "category": "DC",
+      "title": "Strange Adventures",
+      "year": 2020,
+      "writers": ["Tom King"],
+      "artists": ["Mitch Gerads", "Evan Shaner"],
+      "issues": "1-12"
+    },
+    {
+      "category": "Doctor Strange",
+      "title": "Doctor Strange: The Oath",
+      "aliases": ["Doctor Strange The Oath"],
+      "year": 2006,
+      "writers": ["Brian K. Vaughan"],
+      "artists": ["Marcos Martin"],
+      "issues": "1-5"
+    },
+    {
+      "category": "Doctor Strange",
+      "title": "Doctor Strange: Fall Sunrise",
+      "aliases": ["Doctor Strange Fall Sunrise"],
+      "year": 2022,
+      "writers": ["Tradd Moore"],
+      "artists": ["Tradd Moore"],
+      "issues": "1-4"
+    },
+    {
+      "category": "Doctor Strange",
+      "title": "Doctor Strange",
+      "year": 2018,
+      "writers": ["Mark Waid"],
+      "artists": ["Jesus Saiz"],
+      "issues": "1-20"
+    },
+    {
+      "category": "Spider-Man",
+      "title": "Spider-Man: Spider's Shadow",
+      "aliases": ["Spider-Man Spiders Shadow", "Spider's Shadow"],
+      "year": 2021,
+      "writers": ["Chip Zdarsky"],
+      "artists": ["Pasqual Ferry"],
+      "issues": "1-5"
+    },
+    {
+      "category": "Spider-Man",
+      "title": "Amazing Spider-Man: Renew Your Vows",
+      "aliases": ["Renew Your Vows"],
+      "year": 2016,
+      "writers": ["Gerry Conway", "Jody Houser"],
+      "issues": "1-23"
+    },
+    {
+      "category": "Spider-Man",
+      "title": "Spider-Man: The Lost Hunt",
+      "aliases": ["Spider-Man The Lost Hunt", "The Lost Hunt"],
+      "year": 2022,
+      "writers": ["J. M. DeMatteis"],
+      "artists": ["Eder Messias"],
+      "issues": "1-5"
+    },
+    {
+      "category": "Punisher",
+      "title": "Punisher: Born",
+      "aliases": ["Born"],
+      "year": 2003,
+      "writers": ["Garth Ennis"],
+      "artists": ["Darick Robertson"],
+      "issues": "1-4"
+    },
+    {
+      "category": "Punisher",
+      "title": "Punisher: The Platoon",
+      "aliases": ["The Platoon", "Punisher The Platoon"],
+      "year": 2017,
+      "writers": ["Garth Ennis"],
+      "artists": ["Goran Parlov"],
+      "issues": "1-6"
+    },
+    {
+      "category": "Punisher",
+      "title": "Punisher: Soviet",
+      "aliases": ["Punisher Soviet"],
+      "year": 2019,
+      "writers": ["Garth Ennis"],
+      "artists": ["Jacen Burrows"],
+      "issues": "1-6"
+    },
+    {
+      "category": "Hulk",
+      "title": "Hulk: Future Imperfect",
+      "aliases": ["Future Imperfect"],
+      "year": 1992,
+      "writers": ["Peter David"],
+      "artists": ["George Perez"],
+      "issues": "1-2"
+    },
+    {
+      "category": "Hulk",
+      "title": "Hulk: Grand Design",
+      "aliases": ["Hulk Grand Design"],
+      "year": 2022,
+      "writers": ["Jim Rugg"],
+      "artists": ["Jim Rugg"],
+      "issues": "1-2",
+      "notes": "Monster + Madness; some databases may expose these by subtitle instead of #1-2."
+    },
+    {
+      "category": "Daredevil",
+      "title": "Daredevil: Yellow",
+      "aliases": ["Daredevil Yellow"],
+      "year": 2001,
+      "writers": ["Jeph Loeb"],
+      "artists": ["Tim Sale"],
+      "issues": "1-6"
+    },
+    {
+      "category": "Daredevil",
+      "title": "Daredevil",
+      "year": 2011,
+      "writers": ["Mark Waid"],
+      "artists": ["Paolo Rivera", "Chris Samnee"],
+      "issues": "1-36",
+      "notes": "2011 series / Vol. 3."
+    },
+    {
+      "category": "Daredevil",
+      "title": "Daredevil: End of Days",
+      "aliases": ["Daredevil End of Days"],
+      "year": 2012,
+      "writers": ["Brian Michael Bendis", "David Mack"],
+      "artists": ["Klaus Janson"],
+      "issues": "1-8"
+    },
+    {
+      "category": "Moon Knight",
+      "title": "Moon Knight",
+      "year": 2014,
+      "writers": ["Warren Ellis", "Brian Wood", "Cullen Bunn"],
+      "issues": "1-17"
+    },
+    {
+      "category": "Moon Knight",
+      "title": "Moon Knight",
+      "year": 2021,
+      "writers": ["Jed MacKay"],
+      "artists": ["Alessandro Cappuccio"],
+      "issues": "1-30"
+    },
+    {
+      "category": "Moon Knight",
+      "title": "Moon Knight",
+      "year": 1980,
+      "writers": ["Doug Moench"],
+      "artists": ["Bill Sienkiewicz"],
+      "issues": "1-38"
+    },
+    {
+      "category": "Ghost Rider",
+      "title": "Ghost Rider: Trail of Tears",
+      "aliases": ["Ghost Rider Trail of Tears"],
+      "year": 2007,
+      "writers": ["Garth Ennis"],
+      "artists": ["Clayton Crain"],
+      "issues": "1-6"
+    },
+    {
+      "category": "Ghost Rider",
+      "title": "Ghost Riders: Heaven's on Fire",
+      "aliases": ["Ghost Riders Heavens on Fire", "Heaven's on Fire"],
+      "year": 2009,
+      "writers": ["Jason Aaron"],
+      "artists": ["Roland Boschi"],
+      "issues": "1-6"
+    },
+    {
+      "category": "X-Men",
+      "title": "X-Men: Legacy",
+      "aliases": ["X-Men Legacy"],
+      "year": 2012,
+      "writers": ["Simon Spurrier"],
+      "issues": "1-24,300",
+      "notes": "Legion-focused Spurrier run; #300 closes the series."
+    },
+    {
+      "category": "Marvel",
+      "title": "Marvels",
+      "year": 1994,
+      "writers": ["Kurt Busiek"],
+      "artists": ["Alex Ross"],
+      "issues": "0-4"
+    },
+    {
+      "category": "Marvel",
+      "title": "Marvel 1602",
+      "aliases": ["1602"],
+      "year": 2003,
+      "writers": ["Neil Gaiman"],
+      "artists": ["Andy Kubert"],
+      "issues": "1-8"
+    },
+    {
+      "category": "Marvel",
+      "title": "Earth X",
+      "year": 1999,
+      "writers": ["Jim Krueger", "Alex Ross"],
+      "artists": ["John Paul Leon"],
+      "issues": "0-12,X"
+    }
+  ]
+}
